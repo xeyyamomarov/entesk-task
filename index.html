@@ -5,40 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/a076d05399.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
-    <div class="top-header">
-      <header class="header">
-        <div>
-          <h1>SCHOLAR</h1>
+    <nav class="nav">
+      <div class="navbar container">
+        <h1>SCHOLAR</h1>
+        <div class="search">
           <input type="text" placeholder="Type Something" class="search" />
-          <ul class="nav">
-            <li>
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#services">Services</a>
-            </li>
-            <li>
-              <a href="#courses">Courses</a>
-            </li>
-            <li>
-              <a href="#team">Team</a>
-            </li>
-            <li>
-              <a href="#events">Events</a>
-            </li>
-            <li>
-              <a href="#register">Register Now!</a>
-            </li>
-          </ul>
+          <i class="fa fa-search"></i>
         </div>
-      </header>
+        <ul>
+          <li>
+            <a class="active" href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#courses">Courses</a>
+          </li>
+          <li>
+            <a href="#team">Team</a>
+          </li>
+          <li>
+            <a href="#events">Events</a>
+          </li>
+          <li>
+            <a href="#register">Register Now!</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="top-header">
       <div class="home" id="home">
         <div class="item">
           <span>OUR COURSES</span>
@@ -145,8 +148,8 @@
             Online?
           </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br />
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis<br />
             ipsum suspendisse ultrices gravid risus commodo.
           </p>
         </div>
@@ -155,7 +158,7 @@
         </div>
       </div>
     </div>
-    <div class="courses">
+    <div class="courses" id="courses">
       <div class="courses-section">
         <h6>Latest Courses</h6>
         <h2>Latest Courses</h2>
@@ -257,7 +260,7 @@
         <h4>Years Experience</h4>
       </div>
     </div>
-    <div class="teams">
+    <div class="teams" id="team">
       <div class="team">
         <div class="member-img">
           <img src="./img/member-01.jpg" />
@@ -267,13 +270,19 @@
           <h4>Sophia Rose</h4>
           <ul>
             <li>
-              <a href="facebook">FB</a>
+              <a href="facebook">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
             </li>
             <li>
-              <a href="twitter">T</a>
+              <a href="twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
             </li>
             <li>
-              <a href="linkedin">In</a>
+              <a href="linkedin">
+                <i class="fab fa-linkedin"></i>
+              </a>
             </li>
           </ul>
         </div>
@@ -283,17 +292,23 @@
           <img src="./img/member-02.jpg" />
         </div>
         <div class="member-content">
-          <span>Ux Teacher</span>
-          <h4>Sophia Rose</h4>
+          <span>Graphic Teacher</span>
+          <h4>Cindy Walker</h4>
           <ul>
             <li>
-              <a href="facebook">FB</a>
+              <a href="facebook">
+                <i class="fab fa-facebook"></i>
+              </a>
             </li>
             <li>
-              <a href="twitter">T</a>
+              <a href="twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
             </li>
             <li>
-              <a href="linkedin">In</a>
+              <a href="linkedin">
+                <i class="fab fa-linkedin"></i>
+              </a>
             </li>
           </ul>
         </div>
@@ -303,17 +318,23 @@
           <img src="./img/member-03.jpg" />
         </div>
         <div class="member-content">
-          <span>Ux Teacher</span>
-          <h4>Sophia Rose</h4>
+          <span>Full Stack Master</span>
+          <h4>David Hutson</h4>
           <ul>
             <li>
-              <a href="facebook">FB</a>
+              <a href="facebook">
+                <i class="fab fa-facebook"></i>
+              </a>
             </li>
             <li>
-              <a href="twitter">T</a>
+              <a href="twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
             </li>
             <li>
-              <a href="linkedin">In</a>
+              <a href="linkedin">
+                <i class="fab fa-linkedin"></i>
+              </a>
             </li>
           </ul>
         </div>
@@ -323,39 +344,143 @@
           <img src="./img/member-04.jpg" />
         </div>
         <div class="member-content">
-          <span>Ux Teacher</span>
-          <h4>Sophia Rose</h4>
+          <span>Digital Animator</span>
+          <h4>Stella Blair</h4>
           <ul>
             <li>
-              <a href="facebook">FB</a>
+              <a href="facebook">
+                <i class="fab fa-facebook"></i>
+              </a>
             </li>
             <li>
-              <a href="twitter">T</a>
+              <a href="twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
             </li>
             <li>
-              <a href="linkedin">In</a>
+              <a href="linkedin">
+                <i class="fab fa-linkedin"></i>
+              </a>
             </li>
           </ul>
         </div>
       </div>
     </div>
     <div class="team-about">
-      <div class="team-item">
-        <p>
-          “Please tell your friends or collegues about TemplateMo website.
-          Anyone can access the website to download free templates. Thank you
-          for visiting.”
-        </p>
-        <div  class="author">
-          <div class="author-img">
-            <img src="./img/testimonial-author.jpg" alt="/" />
+      <div class="container">
+        <div class="team-item">
+          <p>
+            “Please tell your friends or collegues about TemplateMo website.<br />
+            Anyone can access the website to download free templates. Thank you
+            for visiting.”
+          </p>
+          <div class="author container">
+            <div class="author-img">
+              <img src="./img/testimonial-author.jpg" alt="/" />
+            </div>
+            <div class="author-about">
+              <span>Full Stack Mentor</span>
+              <h4>Claude David</h4>
+            </div>
           </div>
-          <div class="author-about">
-            <span>Full Stack Mentor</span>
-            <h4>Claude David</h4>
+        </div>
+        <div class="testimonials">
+          <div class="testimonial-about">
+            <h6>TESTIMONIALS</h6>
+            <h2>
+              What They Say <br />
+              About Us?
+            </h2>
+            <p>
+              You can search free CSS templates on Google using different <br />
+              keywords such as templatemo portfolio, templatemo gallery,<br />
+              templatemo blue color, etc.
+            </p>
           </div>
         </div>
       </div>
+    </div>
+    <div class="events-coming" id="events">
+      <div class="event-header">
+        <h6>SCHEDULE</h6>
+        <h2>Upcoming Events</h2>
+      </div>
+        <div class="event-item">
+          <div class="event-img">
+            <img src="./img/event-01.jpg" alt="/">
+          </div>
+          <div class="event-data">
+            <ul>
+              <li>
+                <span class="category">Web Design</span>
+                <h4>UI Best Practices</h4>
+              </li>
+              <li>
+                <span>Date:</span>
+                <h6>16 Feb 2036</h6>
+              </li>
+              <li>
+                <span>Duration:</span>
+                <h6>22 Hours</h6>
+              </li>
+              <li>
+                <span>Price:</span>
+                <h6>$120</h6>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="event-item">
+          <div class="event-img">
+            <img src="./img/event-01.jpg" alt="/">
+          </div>
+          <div class="event-data">
+            <ul>
+              <li>
+                <span class="category">Web Design</span>
+                <h4>UI Best Practices</h4>
+              </li>
+              <li>
+                <span>Date:</span>
+                <h6>16 Feb 2036</h6>
+              </li>
+              <li>
+                <span>Duration:</span>
+                <h6>22 Hours</h6>
+              </li>
+              <li>
+                <span>Price:</span>
+                <h6>$120</h6>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="event-item">
+          <div class="event-img">
+            <img src="./img/event-01.jpg" alt="/">
+          </div>
+          <div class="event-data">
+            <ul>
+              <li>
+                <span class="category">Web Design</span>
+                <h4>UI Best Practices</h4>
+              </li>
+              <li>
+                <span>Date:</span>
+                <h6>16 Feb 2036</h6>
+              </li>
+              <li>
+                <span>Duration:</span>
+                <h6>22 Hours</h6>
+              </li>
+              <li>
+                <span>Price:</span>
+                <h6>$120</h6>
+              </li>
+            </ul>
+          </div>
+        </div>
+    
     </div>
   </body>
 </html>
